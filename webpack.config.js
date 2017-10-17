@@ -2,10 +2,12 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var webpack = require('webpack');
 var UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 var OptimizeJsPlugin = require('optimize-js-plugin');
+var path = require('path');
 
+var env = process.env.NODE_ENV;
 var plugins = [
     new HtmlWebpackPlugin({
-        template: 'src/index.html',
+        template: 'client/index.html',
         filename: 'index.html',
         inject: 'body'
     }),
@@ -24,7 +26,7 @@ entry: (env !== 'production' ? [
     ] : []).concat(['./client/index.js']),
 output: {
   filename: './bundle.js',
-  path: resolve(__dirname, 'public'),
+  path: path.resolve(__dirname, 'public'),
 },
     module: {
         rules: [
