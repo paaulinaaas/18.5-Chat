@@ -1,7 +1,14 @@
 .Message {
-    
+   
 }
 
 .MessageList {
-
+	background-color: #fff;
+	border: 1px dotted gray;
+	border-top: none;
+	display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 65vw;
+    padding: 20px;
 }

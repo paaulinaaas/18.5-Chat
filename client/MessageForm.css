@@ -1,7 +1,11 @@
 .MessageForm {
-
+	background-color: #FAFAFA;
 }
 
 .MessageInput {
-    
+    padding: 15px;
+    width: 40vw;
+    background-color: #fff;
+    border: 1px dotted gray;
+    border-top: none;
 }

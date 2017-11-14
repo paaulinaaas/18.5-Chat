@@ -1,9 +1,13 @@
 .Users {
-
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 25vw;
 }
 
 .UsersOnline {
-
+    padding: 15px;
+    text-align: center;
 }
 
 .UsersList {
@@ -11,5 +15,5 @@
 }
 
 .UserItem {
-    
+    padding: 15px;
 }
