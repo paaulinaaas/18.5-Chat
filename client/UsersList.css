@@ -1,5 +1,4 @@
 .Users {
-<<<<<<< HEAD
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -9,13 +8,6 @@
 .UsersOnline {
     padding: 15px;
     text-align: center;
-=======
-
-}
-
-.UsersOnline {
-
->>>>>>> cb70793d4f8e9b414a36b225f4164bedd3555354
 }
 
 .UsersList {
@@ -23,9 +15,5 @@
 }
 
 .UserItem {
-<<<<<<< HEAD
     padding: 15px;
-=======
-    
->>>>>>> cb70793d4f8e9b414a36b225f4164bedd3555354
 }
