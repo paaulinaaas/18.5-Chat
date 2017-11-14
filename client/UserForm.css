@@ -1,4 +1,5 @@
 .UserForm {
+<<<<<<< HEAD
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,4 +12,11 @@
     font-size: 22px;
     text-align: center;
     width: 40vw;
+=======
+
+}
+
+.UserInput {
+
+>>>>>>> cb70793d4f8e9b414a36b225f4164bedd3555354
 }

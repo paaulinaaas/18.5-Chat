@@ -1,4 +1,5 @@
 .MessageForm {
+<<<<<<< HEAD
 	background-color: #FAFAFA;
 }
 
@@ -8,4 +9,11 @@
     background-color: #fff;
     border: 1px dotted gray;
     border-top: none;
+=======
+
+}
+
+.MessageInput {
+    
+>>>>>>> cb70793d4f8e9b414a36b225f4164bedd3555354
 }
